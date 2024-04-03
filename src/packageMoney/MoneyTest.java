@@ -2,10 +2,12 @@ package packageMoney;
 
 import static org.junit.Assert.*;
 
-import org.junit.Test;
+import java.util.Vector;
 
+import org.junit.Test;
 import org.junit.Before;
 import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class MoneyTest {
@@ -34,4 +36,6 @@ public class MoneyTest {
         assertTrue(!m12CHF.equals(m14CHF));
     }
 }
+
+
 
